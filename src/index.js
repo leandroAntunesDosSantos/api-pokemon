@@ -1,6 +1,5 @@
 const express = require("express");
 const { verificarPokemons, pegarPokemons } = require("./controladores/Pokemon");
-const { detalharPokemon } = require("utils-playground");
 
 const app = express();
 
