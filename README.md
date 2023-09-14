@@ -1,5 +1,5 @@
 # Api-pokémon
-Api pokémon 
+A seguir o passo a passo para instalaçao e utilizaçao dessa API:
 
 Primeiramente iniciamos com o comando do gerenciador de pacotes do node:
 ```
