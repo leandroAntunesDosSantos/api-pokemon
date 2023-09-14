@@ -18,7 +18,7 @@ npm express install
 
 ```
 
-e finalmente instalamos o pacote que contem as informaçoes dos pokémons:
+e finalmente instalamos o pacote que contem as informações dos pokémons:
 
 ```
 
@@ -38,10 +38,16 @@ npm install -D nodemon
 
 Dentro da pasta package.json em scripts colocamos: "dev": "nodemon ./src/index.js"
 ![](./imagens/nodemon.png)
-\*\*
-Com a utilizaçao do insomnia podemos testar nossas requisiçoes:
+No terminal digitamos:
+```
 
-Dentro da biblioteca util playground instanciaresmos duas funçoes:
+npm run dev
+
+```
+\*\*
+Com a utilizaçao do insomnia podemos testar nossas requisições:
+
+Dentro da biblioteca util playground instanciaremos duas funções:
 
 ```
 
@@ -73,8 +79,9 @@ Listar todos os pokémons:
 http://localhost:3000/
 
 ```
-
+Fazendo a requisição
 ![](./imagens/listar-pokemon.png)
+Fazendo uma nova requisição...
 ![](./imagens/listar-pokemon2.png)
 Verificar um pokémon:
 
